@@ -3,13 +3,13 @@ server:
  port: 9998
  
 zuul:
- routes:
-  products:
-   path: /api/products/**
-   url: https://s3food-products.herokuapp.com/api/products
+  routes:
+   products:
+    path: /api/products/**
+    url: https://s3food-products.herokuapp.com/api/products
    
-  users:
-    path:/users/**
-    url: https://s3food-users.herokuapp.com/users
+   users:
+     path:/users/**
+     url: https://s3food-users.herokuapp.com/users
     
   
